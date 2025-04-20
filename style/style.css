@@ -1,0 +1,52 @@
+/* @font-face {
+    font-family: "PressStart2P Regular" ;
+    src: url("../fonts/PressStart2P-Regular.ttf");
+} */
+
+.navbar {
+overflow: hidden;
+background-color: chocolate;
+position: fixed;
+top: 0;
+width: 100%;
+}
+   
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+
+h1 {
+font-size: 22px;
+color: red;
+}
+
+body {
+    background-color: blue;
+    font-family: "Great Vibes", "PressStart2P Regular", Helvetica, Arial, sans-serif;
+}
+
+.imageStyle {
+    width: 50%;
+    height: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color:aqua;
+}
+
+.subtitle {
+    border-left: 5px solid chocolate;
+    padding-left: 10px;
+    color: gray;
+    margin-top: 30px;
+  }
